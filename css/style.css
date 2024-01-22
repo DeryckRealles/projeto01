@@ -89,7 +89,7 @@ main {
   border-radius: 4px;
 }
 
-.main-content {
+.main-contant {
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: 80px;
@@ -168,6 +168,7 @@ main {
   display: flex;
   gap: 16px;
   align-items: flex-end;
+  padding-bottom: 16px;
 }
 
 .post-header .post-header-info .post-header-details {
@@ -179,7 +180,7 @@ main {
 
 .post-header .post-header-info .post-header-details .title {
   color: #fff;
-  margin: 0;
+  margin: 0 0 8px;
   margin-bottom: 6px;
 }
 
@@ -187,4 +188,20 @@ main {
   color: #d1d5db;
   font-size: 13px;
   font-style: italic;
+}
+.post-header .post-image {
+  text-align: left;
+}
+.post-header .post-image img {
+  width: 180px;
+  height: 180px;
+}
+
+.post-content footer ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  font-size: 14px;
+  color: #9ca3af;
+  margin-top: 28px;
 }
